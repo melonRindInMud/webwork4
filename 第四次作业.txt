@@ -1,0 +1,24 @@
+1、Spring MVC提供了基于注解的控制器开发模式，请说明一下注解的作用
+@RestController
+@PathVariable
+@RequestBody
+@ResponseBody
+@SessionAttribute
+@ModelAttribute
+
+2、DispatcherServlet常被称为SpringMVC的心脏，在文档https://docs.spring.io/spring-framework/docs/current/reference/html/web.html的1.1.5节介绍了DispatcherServlet处理一个请求的流程，请根据该段描述并查阅相关资料，描述一下自己理解的DispatcherServlet处理一个请求的流程。
+
+3、面向Web开发的MVC框架种类繁多，请查阅资料对Spring MVC和其它一种MVC框架（如struct2）进行对比
+
+
+编程题
+个人通讯录管理系统Part2
+说明：本系统是一个可供用户录入、修改、查询、删除自己的联系人信息的web系统，本系统是通过多次作业逐步完成的，本次作业基于之前制作的静态页面，创建一个spring boot web项目（springmvc+thymeleaf）实现下述功能
+要求：
+1. 登陆页面：用户名、密码、登陆按钮（在页面上注明测试用户名及密码）
+2. 通讯录列表页面：一个通讯录表格，有添加、编辑、删除按钮
+3. 添加新的联系人页面：姓名、电话、邮箱、住址、QQ号等
+4. 在添加联系人时完成输入值的校验（如校验邮箱格式是否合法等），不符合校验条件时给予提示信息
+5. 使用git进行代码管理，提交作业时提供项目的git地址即可
+
+说明：目前还未学习数据库的操作，所以可将用户提交的数据保存在session中进行模拟。
